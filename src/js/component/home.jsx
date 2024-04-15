@@ -7,21 +7,27 @@ import Tareas from "./tareas";
 const Home = () => {
 	
 	return (
-		<>
-		<div id="TodoList">
+		<><div className="container row flex-row justify-content-center col-sm-12 cajaPrincipal">
+				<div  className="col-sm-12" id="TodoList">
+			
 			<h1>
 				To do list
 			</h1>
+			
+			
 			<Tareas id='Tareas'/>
 			
 		</div>
-		<div id='linea1'>
+		<div className="col-sm-11" id='linea1'>
 	
 		
 	  </div>
-	  <div id='linea2'>
+	  <div className="col-sm-10" id='linea2'>
 	  
 	  </div>
+
+		</div>
+		
 		</>
 
 		

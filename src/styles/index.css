@@ -11,18 +11,13 @@
 
 */
 body{
-    margin-top: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
-  
-    background: rgb(202, 200, 200);
+   margin: auto;
+  background: rgb(202, 200, 200); 
     
-    
-
 }
 h1{
-    font-size: 80px;
-    font-family: ;
+    font-size: 300%;
+    text-align: center;
 }
     
 
@@ -37,9 +32,7 @@ ul li{
     height: auto;
     word-wrap: break-word;
 }
-h1{
-    text-align: center;
-}
+
 input{
     width: 100%;
     padding: 5px ;
@@ -58,13 +51,6 @@ input:focus{
     background-color: grey;
 }
 
-.Delete::before{
-    float:right;
-}
-
-.Delete:hover::before{
-    float:right;
-}
 
 .Delete{
     cursor:pointer ;
@@ -74,17 +60,21 @@ input:focus{
 
 #linea1{
     border : 1px solid rgb(148, 147, 147);
-width: 95%;
+
 height: 10px;
 background-color: white;
 text-align: center;
-margin-left: 25px;
+
 }
 #linea2{
     border : 1px solid rgb(148, 147, 147);
-width: 90%;
-height: 10px;
+
 background-color: white;
 text-align: center;
-margin-left: 40px;
+height: 10px;
+}
+.cajaPrincipal{
+    margin: auto;
+    margin-top: 100px;
+
 }
